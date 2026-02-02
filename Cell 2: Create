@@ -1,0 +1,14 @@
+data = {
+    "review": [
+        "This product is amazing",
+        "Worst experience ever",
+        "I love this item",
+        "Very bad quality",
+        "Excellent and fast delivery",
+        "Not worth the money"
+    ],
+    "sentiment": [1, 0, 1, 0, 1, 0]
+}
+
+df = pd.DataFrame(data)
+df

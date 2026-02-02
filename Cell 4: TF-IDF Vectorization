@@ -1,0 +1,3 @@
+vectorizer = TfidfVectorizer()
+X = vectorizer.fit_transform(df["review"])
+y = df["sentiment"]
